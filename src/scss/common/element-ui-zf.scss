@@ -1,0 +1,27 @@
+$html-font-size: 14px;
+body,html{
+	font-size: $html-font-size;
+}
+.el-button,.el-form-item__label,.el-input__inner,.el-menu-item,.el-tabs__item,.editor-input{
+	font-size: $html-font-size;
+}
+//自定义图标名el-icon-my-
+.el-icon-my-button-edit{
+	background: url("../../assets/icon/edit.gif") center  no-repeat;
+}
+.el-icon-my-button-add{
+	background: url("../../assets/icon/add.gif") center  no-repeat;
+}
+.el-icon-my-button-cancel{
+	background: url("../../assets/icon/cancel.gif") center  no-repeat;
+}
+
+// content中是中文的Unicode编码； font-size:图标大小； visibility: hidden;来隐藏文字
+// .el-icon-my-button-edit:before{
+// 	content: "\f0d7";
+// 	font-size: 16px;
+// 	visibility: hidden;
+// }
+// .el-icon-button-folder:before {
+// 	content: "\e78f" !important;
+// }

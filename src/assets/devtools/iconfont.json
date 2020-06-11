@@ -1,0 +1,296 @@
+{
+  "id": "1727611",
+  "name": "devtools",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1989034",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "2028454",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2057868",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "2262629",
+      "name": "项目",
+      "font_class": "xiangmu1",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "2760036",
+      "name": "表格",
+      "font_class": "biaoge",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "3955112",
+      "name": "用户",
+      "font_class": "yonghu1",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "4290396",
+      "name": "database-export",
+      "font_class": "database-export",
+      "unicode": "ea20",
+      "unicode_decimal": 59936
+    },
+    {
+      "icon_id": "4290399",
+      "name": "database-import",
+      "font_class": "database-import",
+      "unicode": "ea21",
+      "unicode_decimal": 59937
+    },
+    {
+      "icon_id": "5119631",
+      "name": "项目",
+      "font_class": "xiangmu2",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "5156559",
+      "name": "类型转换",
+      "font_class": "leixingzhuanhuan-copy-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5806446",
+      "name": "ddl",
+      "font_class": "ddl",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6218109",
+      "name": "数据导出-自定义",
+      "font_class": "shujujidaochu",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6625347",
+      "name": "类型",
+      "font_class": "leixing",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "6675727",
+      "name": "项目",
+      "font_class": "xiangmu3",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6772544",
+      "name": "类型",
+      "font_class": "leixing1",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "8218764",
+      "name": "我的【点亮】",
+      "font_class": "wodedianliang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8551651",
+      "name": "项目",
+      "font_class": "xiangmu4",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "8580699",
+      "name": "类型",
+      "font_class": "leixing2",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "9002244",
+      "name": "类型",
+      "font_class": "leixing3",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9230598",
+      "name": "项目",
+      "font_class": "xiangmu5",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "9328090",
+      "name": "数据导出",
+      "font_class": "shujudaochu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "9665115",
+      "name": "database_fill",
+      "font_class": "database_fill-",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "10085268",
+      "name": "Database-mysql_over",
+      "font_class": "Database-mysql_over",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "10085293",
+      "name": "Database_over",
+      "font_class": "Database_over",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "10804816",
+      "name": "项目",
+      "font_class": "xiangmu6",
+      "unicode": "e832",
+      "unicode_decimal": 59442
+    },
+    {
+      "icon_id": "10864103",
+      "name": "db_mysql_database",
+      "font_class": "db_mysql_database",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "10934387",
+      "name": "119 - Substract Database (Flat)",
+      "font_class": "-SubstractDatabaseFlat",
+      "unicode": "f071",
+      "unicode_decimal": 61553
+    },
+    {
+      "icon_id": "10934389",
+      "name": "106 - Download Database (Flat)",
+      "font_class": "-DownloadDatabaseFlat",
+      "unicode": "f072",
+      "unicode_decimal": 61554
+    },
+    {
+      "icon_id": "10934408",
+      "name": "120 - Add Database (Flat)",
+      "font_class": "-AddDatabaseFlat",
+      "unicode": "f073",
+      "unicode_decimal": 61555
+    },
+    {
+      "icon_id": "10946457",
+      "name": "用户",
+      "font_class": "yonghu2",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "11451625",
+      "name": "数据导出",
+      "font_class": "zu",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11941563",
+      "name": "系统用户管理】",
+      "font_class": "xitongyonghuguanli",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "12359534",
+      "name": "用户",
+      "font_class": "yonghu3",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "12513238",
+      "name": "调动离职",
+      "font_class": "tiaodonglizhi",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "12615198",
+      "name": "用户",
+      "font_class": "yonghu4",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "12729517",
+      "name": "数据导出任务列表",
+      "font_class": "shujudaochurenwuliebiao",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "12736345",
+      "name": "pub_ic_database_sql",
+      "font_class": "pub_ic_database_sql",
+      "unicode": "e813",
+      "unicode_decimal": 59411
+    },
+    {
+      "icon_id": "13386549",
+      "name": "迁出",
+      "font_class": "bianji",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "13480601",
+      "name": "类型",
+      "font_class": "leixing4",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "13617080",
+      "name": "databaseClusterCharts",
+      "font_class": "databaseClusterCharts",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "13736968",
+      "name": "用户",
+      "font_class": "icon-test",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

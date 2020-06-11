@@ -1,0 +1,197 @@
+{
+	/**
+		使用说明：
+		第一步：打开Visual Studio Code 工具
+		第二部：Ctrl+Shift+p 快捷键 在弹出输入框中输入snippet 选择下拉第一项
+		第三步：创建snippet文件 如bfwl
+		第四步：将该文件复制到刚刚创建的文件里面
+	
+	*/
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"DATE_TIME":{"prefix":"Type.DATE_TIME","body":["Type.DATE_TIME"],"description":"datetime"},
+	"DATE":{"prefix":"Type.DATE","body":["Type.DATE"],"description":"date"},
+	"TEXT":{"prefix":"Type.TEXT","body":["Type.TEXT"],"description":"text"},
+	"TEXT_AREA":{"prefix":"Type.TEXT_AREA","body":["Type.TEXT_AREA"],"description":"textarea"},
+	"CHECK_BOX":{"prefix":"Type.CHECK_BOX","body":["Type.CHECK_BOX"],"description":"checkbox"},
+	"CHECK_BOX_GROUP":{"prefix":"Type.CHECK_BOX_GROUP","body":["Type.CHECK_BOX_GROUP"],"description":"checkboxgroup"},
+	"SWITCH":{"prefix":"Type.SWITCH","body":["Type.SWITCH"],"description":"switch"},
+	"LINK":{"prefix":"Type.LINK","body":["Type.LINK"],"description":"link"},
+	"SELECT":{"prefix":"Type.SELECT","body":["Type.SELECT"],"description":"select"},
+	"DROP_DOWN":{"prefix":"Type.DROP_DOWN","body":["Type.DROP_DOWN"],"description":"dropdown"},
+	"RADIO_GROUP":{"prefix":"Type.RADIO_GROUP","body":["Type.RADIO_GROUP"],"description":"radiogroup"},
+	"IMAGE":{"prefix":"Type.IMAGE","body":["Type.IMAGE"],"description":"image"},
+	"ELEMENT":{"prefix":"Type.ELEMENT","body":["Type.ELEMENT"],"description":"element"},
+
+	"DATE_TIME2":{"prefix":"DataType.DATE_TIME","body":["DataType.DATE_TIME"],"description":"datetime"},
+	"DATE2":{"prefix":"DataType.DATE","body":["DataType.DATE"],"description":"date"},
+	"DropDown2":{"prefix":"DataType.DROP_DOWN","body":["DataType.DROP_DOWN"],"description":"dropdown"},
+	"String":{"prefix":"DataType.STRING","body":["DataType.STRING"],"description":"string"},
+	"Boolean":{"prefix":"DataType.BOOLEAN","body":["DataType.BOOLEAN"],"description":"boolean"},
+	"INT":{"prefix":"DataType.INT","body":["DataType.INT"],"description":"int"},
+	"DOUBLE":{"prefix":"DataType.DOUBLE","body":["DataType.DOUBLE"],"description":"double"},
+	"enum":{"prefix":"enum","body":["import {Type,DataType} from '@/components/js/enum'","$2"]},
+	"options":{"prefix":"options","body":["import {FinOptions} from '@/views/public/options'","$2"]},
+	"options_type1":{"prefix":"Fin.type1","body":["FinOptions.type1"],"description":"options"},
+	"options_billType":{"prefix":"Fin.billType","body":["FinOptions.billType"],"description":"options"},
+	"options_invoiceType":{"prefix":"Fin.invoiceType","body":["FinOptions.invoiceType"],"description":"options"},
+	"options_status":{"prefix":"Fin.status","body":["FinOptions.status"],"description":"options"},
+
+	"Dataset":{
+		"prefix":"new Dataset",
+		"body":[
+			"new Dataset (this,{",
+			"\tname:\"$1\",",
+			"\taction:\"\",",
+			"\tserver:\"\",",
+			"\tfields:[",
+			"",
+			"\t],",
+			"});"
+		]
+	},
+	"afterchange":{
+		"prefix":"afterchange",
+		"body":[
+			"this.dsData.addEvent(\"afterchange\",(param)=>{",
+			"\t//params={name:name,value:value,oldvalue:oldvalue,original:original,row:row}",
+			"\tif(param.name==='$1'){",
+			"",
+			"\t}",
+			"});"
+		],"description":"Dataset"
+	},"beforechange":{
+		"prefix":"beforechange",
+		"body":[
+			"this.dsData.addEvent(\"beforechange\",(param)=>{",
+			"\t//params={name:name,value:value,oldvalue:oldvalue,original:original,row:row}",
+			"\t//return false;可以阻止修改",
+			"});"
+		],"description":"Dataset"
+	},"afterscroll":{
+		"prefix":"afterscroll",
+		"body":[
+			"this.dsData.addEvent(\"afterscroll\",(param)=>{",
+			"\t//params={row:row}  注意row可能为null",
+			"});"
+		],"description":"Dataset"
+	},"beforescroll":{
+		"prefix":"beforescroll",
+		"body":[
+			"this.dsData.addEvent(\"beforescroll\",(param)=>{",
+			"\t//params={row:row} 注意row可能为null",
+			"\t//return false;可以阻止滚动",
+			"});"
+		],"description":"Dataset"
+	},"check":{
+		"prefix":"check",
+		"body":[
+			"this.dsData.addEvent(\"check\",(param)=>{",
+			"\t//params={row:row,iserror:false,error:[],name:name};校验",
+			"\tif(param.name==='$1'){",
+			"",
+			"\t}",
+			"});"
+		],"description":"Dataset"
+	},"beforesave":{
+		"prefix":"beforesave",
+		"body":[
+			"this.dsData.addEvent(\"beforesave\",(param)=>{",
+			"\t//params={rows:rows}; return false 阻止保存",
+			"\tparam.rows.forEach(row=>{})",
+			"});"
+		],"description":"Dataset"
+	},"aftersave":{
+		"prefix":"aftersave",
+		"body":[
+			"this.dsData.addEvent(\"aftersave\",(req)=>{",
+			"\t//req后台返回数据",
+			"});"
+		],"description":"Dataset"
+	},"beforequery":{
+		"prefix":"beforequery",
+		"body":[
+			"this.dsData.addEvent(\"beforequery\",(params)=>{",
+			"",
+			"});"
+		],"description":"Dataset"
+	},"afterquery":{
+		"prefix":"afterquery",
+		"body":[
+			"this.dsData.addEvent(\"afterquery\",(req)=>{",
+			"",
+			"});"
+		],"description":"Dataset"
+	},"afterinsert":{
+		"prefix":"afterinsert",
+		"body":[
+			"this.dsData.addEvent(\"afterinsert\",(param)=>{",
+			"\t//param={row:row}",
+			"});"
+		],"description":"Dataset"
+	},"initrow":{
+		"prefix":"initrow",
+		"body":[
+			"this.dsData.addEvent(\"initrow\",(param)=>{",
+			"\t//param={row:row}",
+			"});"
+		],"description":"Dataset"
+	},"afterpushdata":{
+		"prefix":"afterpushdata",
+		"body":[
+			"this.dsData.addEvent(\"afterpushdata\",(param)=>{",
+			"\t//param={rows:rows}",
+			"});"
+		],"description":"Dataset"
+	},"subwindow":{
+		"prefix":"new Subwindow",
+		"body":[
+			"new Subwindow(this,{",
+			"\t//name,title,modal,component,width,height,params",
+			"\tname:\"sub$1\",",
+			"\tcomponent:{name:\"\",path:''}",
+			"});"
+		]
+	},"dropdown":{
+		"prefix":"new DropDown",
+		"body":[
+			"new DropDown(this,{",
+			"\t//name,autoopen,read,write,showhead,openfilter,multi,dataset,paramname,columns,maxheight,selected",
+			"\tname:\"dd$1\",",
+			"\tdataset:\"\",",
+			"\tread:\"\",",
+			"\twrite:\"\",",
+			"\tcolumns:[],",
+			"});"
+		]
+	},"tabset":{
+		"prefix":"new Tabset",
+		"body":[
+			"new Tabset(this,{",
+			"\t//name,currentTab,tabs,actived,beforechange,afterchange",
+			"\tname:\"tabset1\",",
+			"\ttabs:[",
+			"\t\t{name:\"tab1\",label:\"\"},",
+			"\t\t{name:\"tab2\",label:\"\"},",
+			"\t\t{name:\"tab3\",label:\"\"}",
+			"\t],",
+			"\t//afterchange:(tab)=>{}",
+			"});"
+		]
+	}	
+}
